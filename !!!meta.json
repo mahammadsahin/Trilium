@@ -1,0 +1,664 @@
+{
+	"formatVersion": 1,
+	"appVersion": "0.55.1",
+	"files": [
+		{
+			"isClone": false,
+			"noteId": "9k2JB3kU5UUU",
+			"notePath": [
+				"9k2JB3kU5UUU"
+			],
+			"title": "Linux & Bash Scripting",
+			"notePosition": 40,
+			"prefix": null,
+			"isExpanded": false,
+			"type": "book",
+			"mime": "",
+			"attributes": [
+				{
+					"type": "label",
+					"name": "viewType",
+					"value": "grid",
+					"isInheritable": false,
+					"position": 1
+				}
+			],
+			"dirFileName": "Linux & Bash Scripting",
+			"children": [
+				{
+					"isClone": false,
+					"noteId": "aM6ViBmjgypJ",
+					"notePath": [
+						"9k2JB3kU5UUU",
+						"aM6ViBmjgypJ"
+					],
+					"title": "Linux",
+					"notePosition": 10,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Linux",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "IWMAl3k8hqKw",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"IWMAl3k8hqKw"
+							],
+							"title": "BT_Syllabus",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "BT_Syllabus.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "5rotTnAuikLx",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"5rotTnAuikLx"
+							],
+							"title": "References",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "References.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "h24lty5psJcX",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"h24lty5psJcX"
+							],
+							"title": "@ Query",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "@ Query.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "uwVWrzA6s1cM",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"uwVWrzA6s1cM"
+							],
+							"title": "Introduction Linux",
+							"notePosition": 40,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "imageLink",
+									"value": "6Xyb6gjne0Ay",
+									"isInheritable": false,
+									"position": 2
+								},
+								{
+									"type": "relation",
+									"name": "imageLink",
+									"value": "2r9ohVZXyqFR",
+									"isInheritable": false,
+									"position": 3
+								}
+							],
+							"format": "html",
+							"dataFileName": "Introduction Linux.html",
+							"dirFileName": "Introduction Linux",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "2r9ohVZXyqFR",
+									"notePath": [
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"uwVWrzA6s1cM",
+										"2r9ohVZXyqFR"
+									],
+									"title": "image.png",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "image",
+									"mime": "image/jpg",
+									"attributes": [
+										{
+											"type": "label",
+											"name": "originalFileName",
+											"value": "image.png",
+											"isInheritable": false,
+											"position": 1000
+										}
+									],
+									"dataFileName": "image.png"
+								},
+								{
+									"isClone": false,
+									"noteId": "6Xyb6gjne0Ay",
+									"notePath": [
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"uwVWrzA6s1cM",
+										"6Xyb6gjne0Ay"
+									],
+									"title": "image.png",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "image",
+									"mime": "image/jpg",
+									"attributes": [
+										{
+											"type": "label",
+											"name": "originalFileName",
+											"value": "image.png",
+											"isInheritable": false,
+											"position": 1000
+										}
+									],
+									"dataFileName": "1_image.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "EKXP4nvi9KQU",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"EKXP4nvi9KQU"
+							],
+							"title": "File System & File Format",
+							"notePosition": 91,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "imageLink",
+									"value": "rCXM575DJX9k",
+									"isInheritable": false,
+									"position": 2
+								}
+							],
+							"format": "html",
+							"dataFileName": "File System & File Format.html",
+							"dirFileName": "File System & File Format",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "rCXM575DJX9k",
+									"notePath": [
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"EKXP4nvi9KQU",
+										"rCXM575DJX9k"
+									],
+									"title": "image.png",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "image",
+									"mime": "image/jpg",
+									"attributes": [
+										{
+											"type": "label",
+											"name": "originalFileName",
+											"value": "image.png",
+											"isInheritable": false,
+											"position": 1000
+										}
+									],
+									"dataFileName": "image.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "Ai3OhA55hRzZ",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"Ai3OhA55hRzZ"
+							],
+							"title": "File Management",
+							"notePosition": 101,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "File Management.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "50vXscCysq6O",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"50vXscCysq6O"
+							],
+							"title": "Text editor",
+							"notePosition": 111,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Text editor.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "ser8lIMj4DvM",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"ser8lIMj4DvM"
+							],
+							"title": "User Administration & User Types",
+							"notePosition": 121,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "User Administration & User Typ.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "v40ZC4eXdF2s",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"v40ZC4eXdF2s"
+							],
+							"title": "Groups",
+							"notePosition": 131,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Groups.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "kBzySuopIjeB",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"kBzySuopIjeB"
+							],
+							"title": "Linux Package Manager",
+							"notePosition": 141,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Linux Package Manager.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "50Ch5b6k7SU4",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"50Ch5b6k7SU4"
+							],
+							"title": "Linux Repository",
+							"notePosition": 151,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Linux Repository.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "AJakCppVOsRT",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"AJakCppVOsRT"
+							],
+							"title": "Linux useful files",
+							"notePosition": 161,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Linux useful files.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "yel5j3xinaWt",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"yel5j3xinaWt"
+							],
+							"title": "Networking",
+							"notePosition": 171,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Networking.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "29FCD8QsOa7c",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"29FCD8QsOa7c"
+							],
+							"title": "Kikthemout Eth0 - github",
+							"notePosition": 181,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Kikthemout Eth0 - github.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "tL8k3Akt8ZPc",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"tL8k3Akt8ZPc"
+							],
+							"title": "Port forwarding without router",
+							"notePosition": 191,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Port forwarding without router.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "1ibFtlIfiX4M",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"1ibFtlIfiX4M"
+							],
+							"title": "Basic Useful Command  ",
+							"notePosition": 201,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Basic Useful Command.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "kPQAofBwb4eE",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"kPQAofBwb4eE"
+							],
+							"title": "Software add",
+							"notePosition": 211,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Software add.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "WDEEPeHC8iPq",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"WDEEPeHC8iPq"
+							],
+							"title": "Installing",
+							"notePosition": 221,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Installing.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "dffLTvE0Mvnc",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"dffLTvE0Mvnc"
+							],
+							"title": "Linux Install & Changes",
+							"notePosition": 231,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Linux Install & Changes.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "xBJJNtrQAzg2",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"xBJJNtrQAzg2"
+							],
+							"title": "To Do List",
+							"notePosition": 241,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "To Do List.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "iGzjJ2UBnUxG",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"iGzjJ2UBnUxG"
+							],
+							"title": "All Command",
+							"notePosition": 251,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "All Command.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "deRGqvRoRrT7",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"deRGqvRoRrT7"
+							],
+							"title": "Virtual Private Server",
+							"notePosition": 261,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Virtual Private Server.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "7xKsxwCOI6hs",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ",
+								"7xKsxwCOI6hs"
+							],
+							"title": "Server configuration",
+							"notePosition": 271,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Server configuration.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "Adx2oIAXGR3w",
+					"notePath": [
+						"9k2JB3kU5UUU",
+						"Adx2oIAXGR3w"
+					],
+					"title": "Bash Scripting",
+					"notePosition": 30,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Bash Scripting.html",
+					"dirFileName": "Bash Scripting",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "LXSGrCZMepBk",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"Adx2oIAXGR3w",
+								"LXSGrCZMepBk"
+							],
+							"title": "Introduction",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Introduction.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "nXeXXXXRdZPu",
+							"notePath": [
+								"9k2JB3kU5UUU",
+								"Adx2oIAXGR3w",
+								"nXeXXXXRdZPu"
+							],
+							"title": "new note",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "new note.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "Uk6aTe7Gc74F",
+					"notePath": [
+						"9k2JB3kU5UUU",
+						"Uk6aTe7Gc74F"
+					],
+					"title": "Unix v/s Linux",
+					"notePosition": 40,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [
+						{
+							"type": "relation",
+							"name": "imageLink",
+							"value": "6Xyb6gjne0Ay",
+							"isInheritable": false,
+							"position": 1
+						}
+					],
+					"format": "html",
+					"dataFileName": "Unix vs Linux.html"
+				}
+			]
+		},
+		{
+			"noImport": true,
+			"dataFileName": "navigation.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "index.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "style.css"
+		}
+	]
+}

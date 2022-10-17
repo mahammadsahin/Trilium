@@ -1,0 +1,144 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>File System &amp; File Format</h1>
+
+    <figure class="image image_resized" style="width:80.86%;">
+      <img src="File%20System%20%26%20File%20Format/image.png">
+    </figure>
+    <p>All Linux follow “Filesystem Hierarchy Standard (FHS)”</p>
+    <p>A file system is basically <strong>a set of rules</strong> used to <strong>decide how data is stored</strong> and <strong>fetched</strong> in
+      a <strong>storage device</strong>, be it a hard drive, flash drive, or something
+      else.</p>
+    <figure class="table">
+      <table>
+        <tbody>
+          <tr>
+            <td style="background-color:#5b9bd5;border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="background-color:#5b9bd5;border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>Windows</strong>
+            </td>
+            <td style="background-color:#5b9bd5;border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>Linux</strong>
+            </td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>Partition&nbsp;</strong>
+            </td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Disk1</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">/dev/sda1</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>Filesystem type</strong>
+            </td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">NTFS/FAT32</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">EXT3/EXT4/XFS…</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>Mounting parameters</strong>
+            </td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">DriveLetter</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">MountPoint</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>Base folder where OS is stored</strong>
+            </td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">C drive</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">/</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <p>&nbsp;</p>
+    <h6 style="margin-left:40px;"><span class="text-big"><strong><u>NTFS V/S FAT V/S EXT</u></strong></span></h6>
+    <ul>
+      <li><strong><u>FAT-32</u></strong>
+        <ul>
+          <li>File allocation table</li>
+          <li>Support up to 2TB</li>
+          <li>1 file 4gb max file size</li>
+        </ul>
+      </li>
+      <li><strong><u>NTFS</u></strong>
+        <ul>
+          <li>New Technology File System</li>
+          <li>Support 16 tb max file size</li>
+        </ul>
+      </li>
+      <li><strong><u>EXT4</u></strong>
+        <ul>
+          <li>Extended file system 4</li>
+          <li>File based encryption and jurnalling (error control)</li>
+          <li>Ext4 can access NTFS file system</li>
+        </ul>
+      </li>
+    </ul>
+    <p style="margin-left:40px;">[*] <strong>In one machine 1 hdd/ssd create max 4 partition - 3 primary &amp; 1 extended then 1 extended to 15 logical partition we create</strong>
+    </p>
+    <p style="margin-left:40px;">&nbsp;</p>
+    <h6 style="margin-left:40px;"><span class="text-big"><strong>File system</strong></span></h6>
+    <ul>
+      <li><span class="text-big"><strong>/</strong></span> - Root / Top Level Directory
+        <ul>
+          <li><strong>/bin</strong> - user executable binaries files/Application Binary
+            - System Software, Shell command (apt, ls, cd, cat)</li>
+          <li><strong>/boot</strong> – boot loader &amp; Kernel Files</li>
+          <li><strong>/dev </strong>– device files for every hardware devices attached
+            to the system</li>
+          <li><strong>/dev/sda</strong> - Where install linux like a harddisk then separate
+            different partation like /dev/sda1(boot), /dev/sda2, /dev/sda3</li>
+          <li><strong>/etc</strong> – configuration files&nbsp;</li>
+          <li><strong>/home</strong> – users files&nbsp;</li>
+          <li><strong>/lib</strong> - Shared library for boot required files &amp; /bin
+            softwares</li>
+          <li><strong>/media</strong> – external media temp mount point&nbsp;</li>
+          <li><strong>/mnt </strong>– Temporary mount point for file system&nbsp;</li>
+          <li><strong>/opt</strong> – optional files of application&nbsp;</li>
+          <li>/proc</li>
+          <li><strong>/root</strong> – root user&nbsp;</li>
+          <li>/run</li>
+          <li><strong>/sbin</strong> – assiontial binaryes [system administrator- Fdisk,
+            mkfs, sysctl]</li>
+          <li><strong>/srv </strong>- Data for services provided by this system. This
+            directory gives users the location of data files for a particular service,
+            such as FTP, WWW)</li>
+          <li><strong>/sys</strong>
+          </li>
+          <li><strong>/tmp</strong> – Temp files&nbsp;</li>
+          <li><strong>/usr/</strong> - Shareable, read-only, externally install software,
+            executable binary files and libraries, man files, and other types of documents
+            - (i) second level program, (ii) apt get install, (iii) git clone
+            <ul>
+              <li>/bin&nbsp;</li>
+              <li>/include&nbsp;</li>
+              <li>/lib&nbsp;</li>
+              <li>/sbin&nbsp;</li>
+            </ul>
+          </li>
+          <li><strong>/var/</strong> - variable – which includes spool directories and
+            files, logging data, transient and temporary files, server data, web server
+            files/login data , logs
+            <ul>
+              <li>/cache&nbsp;</li>
+              <li>/log&nbsp;</li>
+              <li>/spool&nbsp;</li>
+              <li>/tmp<span class="text-big"><strong> &nbsp;&nbsp;</strong></span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </body>
+
+</html>

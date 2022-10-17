@@ -1,0 +1,95 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>Networking</h1>
+
+    
+<h2><strong>Networking</strong></h2>
+    <figure class="table">
+      <table>
+        <tbody>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Ifconfig</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">To check IP address, mac address</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Ifconfig eth0</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Only one adapter ip address</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">iwconfig</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Which network adapter available in network</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Ping google.com</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">
+              <br>&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Ethtool eth0/wlan</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Which network we used</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <p>
+      <br>Web Site Mirror</p>
+    <ol>
+      <li>Wget</li>
+      <li>httrack</li>
+    </ol>
+    <p>&nbsp;</p>
+    <h3><strong>Static IP</strong></h3>
+    <ol>
+      <li>Cd /etc/network</li>
+      <li>Cp interfaces /path/ or interfaces.backup - for backup or copy rename</li>
+      <li>Leavepad interfaces
+        <ol>
+          <li>Auto eth0/wlan</li>
+          <li>Iface eth0 inet static</li>
+          <li>Address 192.168.1.104</li>
+          <li>Netmask 255.255.255.0</li>
+          <li>Gateway 192.168.1.1</li>
+          <li>.</li>
+          <li>Save</li>
+        </ol>
+      </li>
+      <li>Service networking restart or restart pc</li>
+    </ol>
+    <p>
+      <br>&nbsp;Normaly 1 mb = 1024 kb</p>
+    <p>But in linux use mib means&nbsp;</p>
+    <p>In linux 1 mib = 1000 kib</p>
+    <p>&nbsp;</p>
+    <h3><strong>Fully Anonymous on internet using whonix gateway</strong></h3>
+    <ol>
+      <li>virtual machine</li>
+      <li>Whonix gateway - <a href="https://whonix.org"><span style="color:#0000ff;"><u>https://whonix.org</u></span></a>
+        <ol>
+          <li>Extract &amp; upload to virtual machine</li>
+          <li>Setting&gt;system&gt;PAE/NX enable</li>
+          <li>Setting&gt;network&gt;Adp 1- NAT, ADP 2- internal network</li>
+          <li>Connect with tor</li>
+          <li>Default password - changeme</li>
+        </ol>
+      </li>
+      <li>Kali linux
+        <ol>
+          <li>Setting&gt;system&gt;PAE/NX enable</li>
+          <li>Setting&gt;network&gt;Adp 1- internal network &amp; name whonix</li>
+        </ol>
+      </li>
+      <li>Tor</li>
+    </ol>
+    <p>
+      <br>&nbsp;</p>
+  </body>
+
+</html>
