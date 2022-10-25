@@ -1,0 +1,35 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>Crunch</h1>
+
+    <p>Charactar set file /usr/share/crunch/crunch.lst</p>
+    <p><strong>Syntax</strong>: crunch &lt;min-len&gt; &lt;max-len&gt; [&lt;charset
+      string&gt;] [options]</p>
+    <p><strong>Ex:</strong>&nbsp;</p>
+    <ul>
+      <li>crunch 3 4 -o outputfile.txt</li>
+      <li>crunch 3 4 abcdE -o outputfile.txt</li>
+      <li>crunch 3 4 -f /usr/share/crunch/charset.lst hex-lower -o outputfile.txt</li>
+      <li>crunch 5 5 -t @@@Ab -o outputfile.txt
+        <ul>
+          <li>@ will insert lower case characters</li>
+          <li>, will insert upper case characters</li>
+          <li>% will insert numbers</li>
+          <li>^ will insert symbols</li>
+        </ul>
+      </li>
+      <li>crunch 5 5 -t @@@Ab -s bbbAb -o outputfile.txt &nbsp; //start from</li>
+      <li>crunch 8 8 -t ,@%admin -s cC5admin -o outputfile.txt&nbsp;
+        <br>&nbsp;</li>
+    </ul>
+  </body>
+
+</html>

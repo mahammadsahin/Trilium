@@ -4,72 +4,72 @@
 	"files": [
 		{
 			"isClone": false,
-			"noteId": "9k2JB3kU5UUU",
+			"noteId": "root",
 			"notePath": [
-				"9k2JB3kU5UUU"
+				"root"
 			],
-			"title": "Linux & Bash Scripting",
-			"notePosition": 40,
+			"title": "root",
+			"notePosition": 10,
 			"prefix": null,
-			"isExpanded": false,
-			"type": "book",
-			"mime": "",
-			"attributes": [
-				{
-					"type": "label",
-					"name": "viewType",
-					"value": "grid",
-					"isInheritable": false,
-					"position": 1
-				}
-			],
-			"dirFileName": "Linux & Bash Scripting",
+			"isExpanded": true,
+			"type": "text",
+			"mime": "text/html",
+			"attributes": [],
+			"format": "html",
+			"dirFileName": "root",
 			"children": [
 				{
 					"isClone": false,
-					"noteId": "aM6ViBmjgypJ",
+					"noteId": "QVSHCixeL7pa",
 					"notePath": [
-						"9k2JB3kU5UUU",
-						"aM6ViBmjgypJ"
+						"root",
+						"QVSHCixeL7pa"
 					],
-					"title": "Linux",
-					"notePosition": 10,
+					"title": "Networking",
+					"notePosition": 30,
 					"prefix": null,
 					"isExpanded": false,
-					"type": "text",
-					"mime": "text/html",
-					"attributes": [],
-					"format": "html",
-					"dirFileName": "Linux",
+					"type": "book",
+					"mime": "",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "viewType",
+							"value": "list",
+							"isInheritable": false,
+							"position": 1
+						}
+					],
+					"dirFileName": "Networking",
 					"children": [
 						{
 							"isClone": false,
-							"noteId": "IWMAl3k8hqKw",
+							"noteId": "8kxifdZIpKk3",
 							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"IWMAl3k8hqKw"
+								"root",
+								"QVSHCixeL7pa",
+								"8kxifdZIpKk3"
 							],
-							"title": "BT_Syllabus",
-							"notePosition": 10,
+							"title": "Syllabus",
+							"notePosition": 20,
 							"prefix": null,
 							"isExpanded": false,
 							"type": "text",
 							"mime": "text/html",
 							"attributes": [],
 							"format": "html",
-							"dataFileName": "BT_Syllabus.html"
+							"dataFileName": "Syllabus.html"
 						},
 						{
 							"isClone": false,
-							"noteId": "5rotTnAuikLx",
+							"noteId": "rW0rezg283Zr",
 							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"5rotTnAuikLx"
+								"root",
+								"QVSHCixeL7pa",
+								"rW0rezg283Zr"
 							],
 							"title": "References",
-							"notePosition": 20,
+							"notePosition": 30,
 							"prefix": null,
 							"isExpanded": false,
 							"type": "text",
@@ -80,32 +80,32 @@
 						},
 						{
 							"isClone": false,
-							"noteId": "h24lty5psJcX",
+							"noteId": "Bzjg6b8tNCev",
 							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"h24lty5psJcX"
+								"root",
+								"QVSHCixeL7pa",
+								"Bzjg6b8tNCev"
 							],
-							"title": "@ Query",
-							"notePosition": 30,
+							"title": "# Query",
+							"notePosition": 40,
 							"prefix": null,
 							"isExpanded": false,
 							"type": "text",
 							"mime": "text/html",
 							"attributes": [],
 							"format": "html",
-							"dataFileName": "@ Query.html"
+							"dataFileName": "# Query.html"
 						},
 						{
 							"isClone": false,
-							"noteId": "uwVWrzA6s1cM",
+							"noteId": "shU5T6fvjtt4",
 							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"uwVWrzA6s1cM"
+								"root",
+								"QVSHCixeL7pa",
+								"shU5T6fvjtt4"
 							],
-							"title": "Introduction Linux",
-							"notePosition": 40,
+							"title": "Introduction to Networking",
+							"notePosition": 50,
 							"prefix": null,
 							"isExpanded": false,
 							"type": "text",
@@ -114,30 +114,132 @@
 								{
 									"type": "relation",
 									"name": "imageLink",
-									"value": "6Xyb6gjne0Ay",
+									"value": "WhajZMHfeViE",
 									"isInheritable": false,
-									"position": 2
-								},
-								{
-									"type": "relation",
-									"name": "imageLink",
-									"value": "2r9ohVZXyqFR",
-									"isInheritable": false,
-									"position": 3
+									"position": 1
 								}
 							],
 							"format": "html",
-							"dataFileName": "Introduction Linux.html",
-							"dirFileName": "Introduction Linux",
+							"dataFileName": "Introduction to Networking.html",
+							"dirFileName": "Introduction to Networking",
 							"children": [
 								{
 									"isClone": false,
-									"noteId": "2r9ohVZXyqFR",
+									"noteId": "WhajZMHfeViE",
 									"notePath": [
-										"9k2JB3kU5UUU",
-										"aM6ViBmjgypJ",
-										"uwVWrzA6s1cM",
-										"2r9ohVZXyqFR"
+										"root",
+										"QVSHCixeL7pa",
+										"shU5T6fvjtt4",
+										"WhajZMHfeViE"
+									],
+									"title": "image.png",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "image",
+									"mime": "image/jpg",
+									"attributes": [
+										{
+											"type": "label",
+											"name": "originalFileName",
+											"value": "image.png",
+											"isInheritable": false,
+											"position": 1000
+										}
+									],
+									"dataFileName": "image.png"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "x2BzDdgBPLjY",
+							"notePath": [
+								"root",
+								"QVSHCixeL7pa",
+								"x2BzDdgBPLjY"
+							],
+							"title": "Servers",
+							"notePosition": 70,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Servers.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "TY5AW0Vhk5CV",
+							"notePath": [
+								"root",
+								"QVSHCixeL7pa",
+								"TY5AW0Vhk5CV"
+							],
+							"title": "Types of Networks",
+							"notePosition": 80,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Types of Networks.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "i9YlXO8KaNEl",
+							"notePath": [
+								"root",
+								"QVSHCixeL7pa",
+								"i9YlXO8KaNEl"
+							],
+							"title": "Internet Connections",
+							"notePosition": 90,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Internet Connections.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "lfIvSt6vmtjj",
+							"notePath": [
+								"root",
+								"QVSHCixeL7pa",
+								"lfIvSt6vmtjj"
+							],
+							"title": "Collage",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "imageLink",
+									"value": "ccdfDCfHTk2v",
+									"isInheritable": false,
+									"position": 1
+								}
+							],
+							"format": "html",
+							"dataFileName": "Collage.html",
+							"dirFileName": "Collage",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "ccdfDCfHTk2v",
+									"notePath": [
+										"root",
+										"QVSHCixeL7pa",
+										"lfIvSt6vmtjj",
+										"ccdfDCfHTk2v"
 									],
 									"title": "image.png",
 									"notePosition": 10,
@@ -158,12 +260,839 @@
 								},
 								{
 									"isClone": false,
-									"noteId": "6Xyb6gjne0Ay",
+									"noteId": "ObK0sTilixhG",
 									"notePath": [
+										"root",
+										"QVSHCixeL7pa",
+										"lfIvSt6vmtjj",
+										"ObK0sTilixhG"
+									],
+									"title": "PS",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "PS.html",
+									"dirFileName": "PS",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "VncXfs8t8OVH",
+											"notePath": [
+												"root",
+												"QVSHCixeL7pa",
+												"lfIvSt6vmtjj",
+												"ObK0sTilixhG",
+												"VncXfs8t8OVH"
+											],
+											"title": "Part 1",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [
+												{
+													"type": "relation",
+													"name": "imageLink",
+													"value": "w3mEtdh2YSR1",
+													"isInheritable": false,
+													"position": 1
+												}
+											],
+											"format": "html",
+											"dataFileName": "Part 1.html",
+											"dirFileName": "Part 1",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "w3mEtdh2YSR1",
+													"notePath": [
+														"root",
+														"QVSHCixeL7pa",
+														"lfIvSt6vmtjj",
+														"ObK0sTilixhG",
+														"VncXfs8t8OVH",
+														"w3mEtdh2YSR1"
+													],
+													"title": "image.png",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "image",
+													"mime": "image/jpg",
+													"attributes": [
+														{
+															"type": "label",
+															"name": "originalFileName",
+															"value": "image.png",
+															"isInheritable": false,
+															"position": 1000
+														}
+													],
+													"dataFileName": "image.png"
+												},
+												{
+													"isClone": false,
+													"noteId": "YRyifyqiK3j6",
+													"notePath": [
+														"root",
+														"QVSHCixeL7pa",
+														"lfIvSt6vmtjj",
+														"ObK0sTilixhG",
+														"VncXfs8t8OVH",
+														"YRyifyqiK3j6"
+													],
+													"title": "Topic",
+													"notePosition": 20,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Topic.html"
+												}
+											]
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "SMHOLiCiYmA3",
+									"notePath": [
+										"root",
+										"QVSHCixeL7pa",
+										"lfIvSt6vmtjj",
+										"SMHOLiCiYmA3"
+									],
+									"title": "Pj",
+									"notePosition": 30,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Pj.html"
+								}
+							]
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "9k2JB3kU5UUU",
+					"notePath": [
+						"root",
+						"9k2JB3kU5UUU"
+					],
+					"title": "Linux & Bash Scripting",
+					"notePosition": 40,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "book",
+					"mime": "",
+					"attributes": [
+						{
+							"type": "label",
+							"name": "viewType",
+							"value": "grid",
+							"isInheritable": false,
+							"position": 1
+						}
+					],
+					"dirFileName": "Linux & Bash Scripting",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "aM6ViBmjgypJ",
+							"notePath": [
+								"root",
+								"9k2JB3kU5UUU",
+								"aM6ViBmjgypJ"
+							],
+							"title": "Linux",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": true,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dirFileName": "Linux",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "IWMAl3k8hqKw",
+									"notePath": [
+										"root",
 										"9k2JB3kU5UUU",
 										"aM6ViBmjgypJ",
-										"uwVWrzA6s1cM",
-										"6Xyb6gjne0Ay"
+										"IWMAl3k8hqKw"
+									],
+									"title": "BT_Syllabus",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "BT_Syllabus.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "5rotTnAuikLx",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"5rotTnAuikLx"
+									],
+									"title": "References",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "References.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "h24lty5psJcX",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"h24lty5psJcX"
+									],
+									"title": "@ Query",
+									"notePosition": 30,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "@ Query.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "uwVWrzA6s1cM",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"uwVWrzA6s1cM"
+									],
+									"title": "Introduction Linux",
+									"notePosition": 40,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "imageLink",
+											"value": "6Xyb6gjne0Ay",
+											"isInheritable": false,
+											"position": 2
+										},
+										{
+											"type": "relation",
+											"name": "imageLink",
+											"value": "2r9ohVZXyqFR",
+											"isInheritable": false,
+											"position": 3
+										}
+									],
+									"format": "html",
+									"dataFileName": "Introduction Linux.html",
+									"dirFileName": "Introduction Linux",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "2r9ohVZXyqFR",
+											"notePath": [
+												"root",
+												"9k2JB3kU5UUU",
+												"aM6ViBmjgypJ",
+												"uwVWrzA6s1cM",
+												"2r9ohVZXyqFR"
+											],
+											"title": "image.png",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "image",
+											"mime": "image/jpg",
+											"attributes": [
+												{
+													"type": "label",
+													"name": "originalFileName",
+													"value": "image.png",
+													"isInheritable": false,
+													"position": 1000
+												}
+											],
+											"dataFileName": "image.png"
+										},
+										{
+											"isClone": false,
+											"noteId": "6Xyb6gjne0Ay",
+											"notePath": [
+												"root",
+												"9k2JB3kU5UUU",
+												"aM6ViBmjgypJ",
+												"uwVWrzA6s1cM",
+												"6Xyb6gjne0Ay"
+											],
+											"title": "image.png",
+											"notePosition": 20,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "image",
+											"mime": "image/jpg",
+											"attributes": [
+												{
+													"type": "label",
+													"name": "originalFileName",
+													"value": "image.png",
+													"isInheritable": false,
+													"position": 1000
+												}
+											],
+											"dataFileName": "1_image.png"
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "EKXP4nvi9KQU",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"EKXP4nvi9KQU"
+									],
+									"title": "File System & File Format",
+									"notePosition": 91,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "imageLink",
+											"value": "rCXM575DJX9k",
+											"isInheritable": false,
+											"position": 2
+										}
+									],
+									"format": "html",
+									"dataFileName": "File System & File Format.html",
+									"dirFileName": "File System & File Format",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "rCXM575DJX9k",
+											"notePath": [
+												"root",
+												"9k2JB3kU5UUU",
+												"aM6ViBmjgypJ",
+												"EKXP4nvi9KQU",
+												"rCXM575DJX9k"
+											],
+											"title": "image.png",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "image",
+											"mime": "image/jpg",
+											"attributes": [
+												{
+													"type": "label",
+													"name": "originalFileName",
+													"value": "image.png",
+													"isInheritable": false,
+													"position": 1000
+												}
+											],
+											"dataFileName": "image.png"
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "Ai3OhA55hRzZ",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"Ai3OhA55hRzZ"
+									],
+									"title": "File Management",
+									"notePosition": 101,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "File Management.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "50vXscCysq6O",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"50vXscCysq6O"
+									],
+									"title": "Text editor",
+									"notePosition": 111,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Text editor.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "ser8lIMj4DvM",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"ser8lIMj4DvM"
+									],
+									"title": "User Administration & User Types",
+									"notePosition": 121,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "User Administration & User Typ.html",
+									"dirFileName": "User Administration & User Types",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "Gu44wlxcxyjT",
+											"notePath": [
+												"root",
+												"9k2JB3kU5UUU",
+												"aM6ViBmjgypJ",
+												"ser8lIMj4DvM",
+												"Gu44wlxcxyjT"
+											],
+											"title": "File Permission",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "File Permission.html"
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "v40ZC4eXdF2s",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"v40ZC4eXdF2s"
+									],
+									"title": "Groups",
+									"notePosition": 131,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Groups.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "kBzySuopIjeB",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"kBzySuopIjeB"
+									],
+									"title": "Linux Package Manager",
+									"notePosition": 141,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Linux Package Manager.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "50Ch5b6k7SU4",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"50Ch5b6k7SU4"
+									],
+									"title": "Linux Repository",
+									"notePosition": 151,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Linux Repository.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "AJakCppVOsRT",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"AJakCppVOsRT"
+									],
+									"title": "Linux useful files",
+									"notePosition": 161,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Linux useful files.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "yel5j3xinaWt",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"yel5j3xinaWt"
+									],
+									"title": "Networking",
+									"notePosition": 171,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Networking.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "29FCD8QsOa7c",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"29FCD8QsOa7c"
+									],
+									"title": "Kikthemout Eth0 - github",
+									"notePosition": 181,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Kikthemout Eth0 - github.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "tL8k3Akt8ZPc",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"tL8k3Akt8ZPc"
+									],
+									"title": "Port forwarding without router",
+									"notePosition": 191,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Port forwarding without router.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "1ibFtlIfiX4M",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"1ibFtlIfiX4M"
+									],
+									"title": "Basic Useful Command  ",
+									"notePosition": 201,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Basic Useful Command.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "dffLTvE0Mvnc",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"dffLTvE0Mvnc"
+									],
+									"title": "Linux Install & Changes",
+									"notePosition": 231,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Linux Install & Changes.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "iGzjJ2UBnUxG",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"iGzjJ2UBnUxG"
+									],
+									"title": "All Command",
+									"notePosition": 281,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "All Command.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "7xKsxwCOI6hs",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"aM6ViBmjgypJ",
+										"7xKsxwCOI6hs"
+									],
+									"title": "Server configuration",
+									"notePosition": 271,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Server configuration.html"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "Adx2oIAXGR3w",
+							"notePath": [
+								"root",
+								"9k2JB3kU5UUU",
+								"Adx2oIAXGR3w"
+							],
+							"title": "Bash Scripting",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Bash Scripting.html",
+							"dirFileName": "Bash Scripting",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "LXSGrCZMepBk",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"Adx2oIAXGR3w",
+										"LXSGrCZMepBk"
+									],
+									"title": "Introduction",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Introduction.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "nXeXXXXRdZPu",
+									"notePath": [
+										"root",
+										"9k2JB3kU5UUU",
+										"Adx2oIAXGR3w",
+										"nXeXXXXRdZPu"
+									],
+									"title": "new note",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "new note.html"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "Uk6aTe7Gc74F",
+							"notePath": [
+								"root",
+								"9k2JB3kU5UUU",
+								"Uk6aTe7Gc74F"
+							],
+							"title": "Unix v/s Linux",
+							"notePosition": 40,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "imageLink",
+									"value": "6Xyb6gjne0Ay",
+									"isInheritable": false,
+									"position": 1
+								}
+							],
+							"format": "html",
+							"dataFileName": "Unix vs Linux.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "4CPEh1f5bdPL",
+					"notePath": [
+						"root",
+						"4CPEh1f5bdPL"
+					],
+					"title": "8085 Microprocessor",
+					"notePosition": 50,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "8085 Microprocessor",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "4IgaNCrlD9CE",
+							"notePath": [
+								"root",
+								"4CPEh1f5bdPL",
+								"4IgaNCrlD9CE"
+							],
+							"title": "Introduction",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "imageLink",
+									"value": "suSbTkN2jVfo",
+									"isInheritable": false,
+									"position": 1
+								},
+								{
+									"type": "relation",
+									"name": "imageLink",
+									"value": "Q6Xzohj9lHV1",
+									"isInheritable": false,
+									"position": 2
+								}
+							],
+							"format": "html",
+							"dataFileName": "Introduction.html",
+							"dirFileName": "Introduction",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "suSbTkN2jVfo",
+									"notePath": [
+										"root",
+										"4CPEh1f5bdPL",
+										"4IgaNCrlD9CE",
+										"suSbTkN2jVfo"
+									],
+									"title": "image.png",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "image",
+									"mime": "image/jpg",
+									"attributes": [
+										{
+											"type": "label",
+											"name": "originalFileName",
+											"value": "image.png",
+											"isInheritable": false,
+											"position": 1000
+										}
+									],
+									"dataFileName": "image.png"
+								},
+								{
+									"isClone": false,
+									"noteId": "Q6Xzohj9lHV1",
+									"notePath": [
+										"root",
+										"4CPEh1f5bdPL",
+										"4IgaNCrlD9CE",
+										"Q6Xzohj9lHV1"
 									],
 									"title": "image.png",
 									"notePosition": 20,
@@ -186,14 +1115,203 @@
 						},
 						{
 							"isClone": false,
-							"noteId": "EKXP4nvi9KQU",
+							"noteId": "tDCVw8ZEvbDJ",
 							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"EKXP4nvi9KQU"
+								"root",
+								"4CPEh1f5bdPL",
+								"tDCVw8ZEvbDJ"
 							],
-							"title": "File System & File Format",
-							"notePosition": 91,
+							"title": "Requirements Knowlaged",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Requirements Knowlaged.html",
+							"dirFileName": "Requirements Knowlaged",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "B1sLqsPFc65i",
+									"notePath": [
+										"root",
+										"4CPEh1f5bdPL",
+										"tDCVw8ZEvbDJ",
+										"B1sLqsPFc65i"
+									],
+									"title": "System Bus Work",
+									"notePosition": 0,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "canvas",
+									"mime": "application/json",
+									"attributes": [],
+									"dataFileName": "System Bus Work.json"
+								}
+							]
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "2sepIxTOaRgI",
+					"notePath": [
+						"root",
+						"2sepIxTOaRgI"
+					],
+					"title": "Spoken English",
+					"notePosition": 70,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "Spoken English.html"
+				},
+				{
+					"isClone": false,
+					"noteId": "q3YtneQam2Rc",
+					"notePath": [
+						"root",
+						"q3YtneQam2Rc"
+					],
+					"title": "BT_Cyber Security/Hacking",
+					"notePosition": 80,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dataFileName": "BT_Cyber SecurityHacking.html",
+					"dirFileName": "BT_Cyber SecurityHacking",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "yxMMyxqDQT5z",
+							"notePath": [
+								"root",
+								"q3YtneQam2Rc",
+								"yxMMyxqDQT5z"
+							],
+							"title": "Footprinting",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dirFileName": "Footprinting",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "7yaMI6RDjw6g",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"yxMMyxqDQT5z",
+										"7yaMI6RDjw6g"
+									],
+									"title": "Syllabus",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Syllabus.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "dIG8SJ81Lx8t",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"yxMMyxqDQT5z",
+										"dIG8SJ81Lx8t"
+									],
+									"title": "References",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "References.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "esso1x9KsqKu",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"yxMMyxqDQT5z",
+										"esso1x9KsqKu"
+									],
+									"title": "@Collecting Information",
+									"notePosition": 30,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "@Collecting Information.html"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "VZHuVQ1B8ju7",
+							"notePath": [
+								"root",
+								"q3YtneQam2Rc",
+								"VZHuVQ1B8ju7"
+							],
+							"title": "Scanning",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Scanning.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "xrNXSasI42lj",
+							"notePath": [
+								"root",
+								"q3YtneQam2Rc",
+								"xrNXSasI42lj"
+							],
+							"title": "Enumeration",
+							"notePosition": 40,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Enumeration.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "O5HgRIHfG5PT",
+							"notePath": [
+								"root",
+								"q3YtneQam2Rc",
+								"O5HgRIHfG5PT"
+							],
+							"title": "Malware",
+							"notePosition": 51,
 							"prefix": null,
 							"isExpanded": false,
 							"type": "text",
@@ -202,23 +1320,691 @@
 								{
 									"type": "relation",
 									"name": "imageLink",
-									"value": "rCXM575DJX9k",
+									"value": "zVui9GYiSgpH",
 									"isInheritable": false,
 									"position": 2
 								}
 							],
 							"format": "html",
-							"dataFileName": "File System & File Format.html",
-							"dirFileName": "File System & File Format",
+							"dataFileName": "Malware.html",
+							"dirFileName": "Malware",
 							"children": [
 								{
 									"isClone": false,
-									"noteId": "rCXM575DJX9k",
+									"noteId": "Khpy9csqecUb",
 									"notePath": [
-										"9k2JB3kU5UUU",
-										"aM6ViBmjgypJ",
-										"EKXP4nvi9KQU",
-										"rCXM575DJX9k"
+										"root",
+										"q3YtneQam2Rc",
+										"O5HgRIHfG5PT",
+										"Khpy9csqecUb"
+									],
+									"title": "Module 9.pdf",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "file",
+									"mime": "application/pdf",
+									"attributes": [
+										{
+											"type": "label",
+											"name": "originalFileName",
+											"value": "Module 9.pdf",
+											"isInheritable": false,
+											"position": 1000
+										}
+									],
+									"dataFileName": "Module 9.pdf"
+								},
+								{
+									"isClone": false,
+									"noteId": "KJfpcDNNUyv0",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"O5HgRIHfG5PT",
+										"KJfpcDNNUyv0"
+									],
+									"title": "Virus",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [
+										{
+											"type": "relation",
+											"name": "imageLink",
+											"value": "Vk17HQrLNiDP",
+											"isInheritable": false,
+											"position": 1
+										},
+										{
+											"type": "relation",
+											"name": "imageLink",
+											"value": "5QPLLziDuEr8",
+											"isInheritable": false,
+											"position": 3
+										},
+										{
+											"type": "relation",
+											"name": "imageLink",
+											"value": "C13UcfISZq6u",
+											"isInheritable": false,
+											"position": 6
+										}
+									],
+									"format": "html",
+									"dataFileName": "Virus.html",
+									"dirFileName": "Virus",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "Vk17HQrLNiDP",
+											"notePath": [
+												"root",
+												"q3YtneQam2Rc",
+												"O5HgRIHfG5PT",
+												"KJfpcDNNUyv0",
+												"Vk17HQrLNiDP"
+											],
+											"title": "image.png",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "image",
+											"mime": "image/jpg",
+											"attributes": [
+												{
+													"type": "label",
+													"name": "originalFileName",
+													"value": "image.png",
+													"isInheritable": false,
+													"position": 1000
+												}
+											],
+											"dataFileName": "image.png"
+										},
+										{
+											"isClone": false,
+											"noteId": "5QPLLziDuEr8",
+											"notePath": [
+												"root",
+												"q3YtneQam2Rc",
+												"O5HgRIHfG5PT",
+												"KJfpcDNNUyv0",
+												"5QPLLziDuEr8"
+											],
+											"title": "image.png",
+											"notePosition": 30,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "image",
+											"mime": "image/jpg",
+											"attributes": [
+												{
+													"type": "label",
+													"name": "originalFileName",
+													"value": "image.png",
+													"isInheritable": false,
+													"position": 1000
+												}
+											],
+											"dataFileName": "1_image.png"
+										},
+										{
+											"isClone": false,
+											"noteId": "C13UcfISZq6u",
+											"notePath": [
+												"root",
+												"q3YtneQam2Rc",
+												"O5HgRIHfG5PT",
+												"KJfpcDNNUyv0",
+												"C13UcfISZq6u"
+											],
+											"title": "image.png",
+											"notePosition": 40,
+											"prefix": null,
+											"isExpanded": false,
+											"type": "image",
+											"mime": "image/jpg",
+											"attributes": [
+												{
+													"type": "label",
+													"name": "originalFileName",
+													"value": "image.png",
+													"isInheritable": false,
+													"position": 1000
+												}
+											],
+											"dataFileName": "2_image.png"
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "7E07IT6uUIuG",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"O5HgRIHfG5PT",
+										"7E07IT6uUIuG"
+									],
+									"title": "Worms",
+									"notePosition": 30,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Worms.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "zVui9GYiSgpH",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"O5HgRIHfG5PT",
+										"zVui9GYiSgpH"
+									],
+									"title": "image.png",
+									"notePosition": 40,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "image",
+									"mime": "image/jpg",
+									"attributes": [
+										{
+											"type": "label",
+											"name": "originalFileName",
+											"value": "image.png",
+											"isInheritable": false,
+											"position": 1000
+										}
+									],
+									"dataFileName": "image.png"
+								},
+								{
+									"isClone": false,
+									"noteId": "EkBS5Ew8qBuo",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"O5HgRIHfG5PT",
+										"EkBS5Ew8qBuo"
+									],
+									"title": "Trojans",
+									"notePosition": 50,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Trojans.html"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "9xrCVbc0zoaE",
+							"notePath": [
+								"root",
+								"q3YtneQam2Rc",
+								"9xrCVbc0zoaE"
+							],
+							"title": "Digital Forensics",
+							"notePosition": 121,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Digital Forensics.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "hj9hkgr1X9ng",
+							"notePath": [
+								"root",
+								"q3YtneQam2Rc",
+								"hj9hkgr1X9ng"
+							],
+							"title": "Bug Hunting & Pentesting ",
+							"notePosition": 131,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Bug Hunting & Pentesting.html",
+							"dirFileName": "Bug Hunting & Pentesting",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "XhIVPeTzczP4",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"hj9hkgr1X9ng",
+										"XhIVPeTzczP4"
+									],
+									"title": "Introduction",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Introduction.html"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "QfiPC2tmFAYh",
+							"notePath": [
+								"root",
+								"q3YtneQam2Rc",
+								"QfiPC2tmFAYh"
+							],
+							"title": "Cloud Computing",
+							"notePosition": 71,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Cloud Computing.html",
+							"dirFileName": "Cloud Computing",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "JBMUbWAvFCBx",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"QfiPC2tmFAYh",
+										"JBMUbWAvFCBx"
+									],
+									"title": "Cloud Security",
+									"notePosition": 30,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Cloud Security.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "u2c6xzqcckvk",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"QfiPC2tmFAYh",
+										"u2c6xzqcckvk"
+									],
+									"title": "Introduction",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Introduction.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "zL5B2QPSLEmg",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"QfiPC2tmFAYh",
+										"zL5B2QPSLEmg"
+									],
+									"title": "Reference",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Reference.html"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "onnRi6j2M2H9",
+							"notePath": [
+								"root",
+								"q3YtneQam2Rc",
+								"onnRi6j2M2H9"
+							],
+							"title": "Cryptography",
+							"notePosition": 61,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Cryptography.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "Zqyh21Dqx64G",
+							"notePath": [
+								"root",
+								"q3YtneQam2Rc",
+								"Zqyh21Dqx64G"
+							],
+							"title": "System Hacking",
+							"notePosition": 41,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "System Hacking.html",
+							"dirFileName": "System Hacking",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "MRkuuEPCfjDK",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"Zqyh21Dqx64G",
+										"MRkuuEPCfjDK"
+									],
+									"title": "Introduction",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Introduction.html"
+								},
+								{
+									"isClone": false,
+									"noteId": "02hzmn8qNsMT",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"Zqyh21Dqx64G",
+										"02hzmn8qNsMT"
+									],
+									"title": "Password Cracking",
+									"notePosition": 30,
+									"prefix": null,
+									"isExpanded": true,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Password Cracking.html",
+									"dirFileName": "Password Cracking",
+									"children": [
+										{
+											"isClone": false,
+											"noteId": "AgcPe39acA74",
+											"notePath": [
+												"root",
+												"q3YtneQam2Rc",
+												"Zqyh21Dqx64G",
+												"02hzmn8qNsMT",
+												"AgcPe39acA74"
+											],
+											"title": "Tools",
+											"notePosition": 10,
+											"prefix": null,
+											"isExpanded": true,
+											"type": "text",
+											"mime": "text/html",
+											"attributes": [],
+											"format": "html",
+											"dataFileName": "Tools.html",
+											"dirFileName": "Tools",
+											"children": [
+												{
+													"isClone": false,
+													"noteId": "jxEeMSKVgO11",
+													"notePath": [
+														"root",
+														"q3YtneQam2Rc",
+														"Zqyh21Dqx64G",
+														"02hzmn8qNsMT",
+														"AgcPe39acA74",
+														"jxEeMSKVgO11"
+													],
+													"title": "Crunch",
+													"notePosition": 10,
+													"prefix": null,
+													"isExpanded": false,
+													"type": "text",
+													"mime": "text/html",
+													"attributes": [],
+													"format": "html",
+													"dataFileName": "Crunch.html",
+													"dirFileName": "Crunch",
+													"children": [
+														{
+															"isClone": false,
+															"noteId": "OOyZ0blDwyws",
+															"notePath": [
+																"root",
+																"q3YtneQam2Rc",
+																"Zqyh21Dqx64G",
+																"02hzmn8qNsMT",
+																"AgcPe39acA74",
+																"jxEeMSKVgO11",
+																"OOyZ0blDwyws"
+															],
+															"title": "@Ab -o outputfile.txt",
+															"notePosition": 10,
+															"isExpanded": false,
+															"type": "code",
+															"mime": "text/plain",
+															"attributes": [],
+															"dataFileName": "@Ab -o outputfile.txt"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"isClone": false,
+									"noteId": "mAdJkZfhfj6z",
+									"notePath": [
+										"root",
+										"q3YtneQam2Rc",
+										"Zqyh21Dqx64G",
+										"mAdJkZfhfj6z"
+									],
+									"title": "References",
+									"notePosition": 10,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "References.html"
+								}
+							]
+						},
+						{
+							"isClone": false,
+							"noteId": "0ELm2RLgwOb0",
+							"notePath": [
+								"root",
+								"q3YtneQam2Rc",
+								"0ELm2RLgwOb0"
+							],
+							"title": "Time",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "canvas",
+							"mime": "application/json",
+							"attributes": [],
+							"dataFileName": "Time.json"
+						},
+						{
+							"isClone": false,
+							"noteId": "m8Qrw8CLlVRc",
+							"notePath": [
+								"root",
+								"q3YtneQam2Rc",
+								"m8Qrw8CLlVRc"
+							],
+							"title": "Module 20.pdf",
+							"notePosition": 111,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "file",
+							"mime": "application/pdf",
+							"attributes": [
+								{
+									"type": "label",
+									"name": "originalFileName",
+									"value": "Module 20.pdf",
+									"isInheritable": false,
+									"position": 1000
+								}
+							],
+							"dataFileName": "Module 20.pdf"
+						},
+						{
+							"isClone": false,
+							"noteId": "2OboVsXlZq48",
+							"notePath": [
+								"root",
+								"q3YtneQam2Rc",
+								"2OboVsXlZq48"
+							],
+							"title": "Inside-the-6-principal-layers-of-the-cloud-security-stack-white-paper.pdf",
+							"notePosition": 81,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "file",
+							"mime": "application/pdf",
+							"attributes": [
+								{
+									"type": "label",
+									"name": "originalFileName",
+									"value": "Inside-the-6-principal-layers-of-the-cloud-security-stack-white-paper.pdf",
+									"isInheritable": false,
+									"position": 1000
+								}
+							],
+							"dataFileName": "Inside-the-6-principal-layers-"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "wzXU9pcgNMKx",
+					"notePath": [
+						"root",
+						"wzXU9pcgNMKx"
+					],
+					"title": "TN_EHOMT 4.0",
+					"notePosition": 90,
+					"prefix": null,
+					"isExpanded": true,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "TN_EHOMT 4.0",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "i5j5AONuDK2E",
+							"notePath": [
+								"root",
+								"wzXU9pcgNMKx",
+								"i5j5AONuDK2E"
+							],
+							"title": "Time",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Time.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "Hvbglb7UHKGa",
+							"notePath": [
+								"root",
+								"wzXU9pcgNMKx",
+								"Hvbglb7UHKGa"
+							],
+							"title": "Day 1,2,",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Day 1,2,.html"
+						},
+						{
+							"isClone": false,
+							"noteId": "MtXnZziNmMXv",
+							"notePath": [
+								"root",
+								"wzXU9pcgNMKx",
+								"MtXnZziNmMXv"
+							],
+							"title": "Previous Notes",
+							"notePosition": 30,
+							"prefix": null,
+							"isExpanded": true,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [
+								{
+									"type": "relation",
+									"name": "imageLink",
+									"value": "0vBPTRtmqNt8",
+									"isInheritable": false,
+									"position": 1
+								}
+							],
+							"format": "html",
+							"dataFileName": "Previous Notes.html",
+							"dirFileName": "Previous Notes",
+							"children": [
+								{
+									"isClone": false,
+									"noteId": "0vBPTRtmqNt8",
+									"notePath": [
+										"root",
+										"wzXU9pcgNMKx",
+										"MtXnZziNmMXv",
+										"0vBPTRtmqNt8"
 									],
 									"title": "image.png",
 									"notePosition": 10,
@@ -236,415 +2022,46 @@
 										}
 									],
 									"dataFileName": "image.png"
+								},
+								{
+									"isClone": false,
+									"noteId": "0uPSDZcXlto4",
+									"notePath": [
+										"root",
+										"wzXU9pcgNMKx",
+										"MtXnZziNmMXv",
+										"0uPSDZcXlto4"
+									],
+									"title": "Work",
+									"notePosition": 20,
+									"prefix": null,
+									"isExpanded": false,
+									"type": "text",
+									"mime": "text/html",
+									"attributes": [],
+									"format": "html",
+									"dataFileName": "Work.html"
 								}
 							]
-						},
-						{
-							"isClone": false,
-							"noteId": "Ai3OhA55hRzZ",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"Ai3OhA55hRzZ"
-							],
-							"title": "File Management",
-							"notePosition": 101,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "File Management.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "50vXscCysq6O",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"50vXscCysq6O"
-							],
-							"title": "Text editor",
-							"notePosition": 111,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Text editor.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "ser8lIMj4DvM",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"ser8lIMj4DvM"
-							],
-							"title": "User Administration & User Types",
-							"notePosition": 121,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "User Administration & User Typ.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "v40ZC4eXdF2s",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"v40ZC4eXdF2s"
-							],
-							"title": "Groups",
-							"notePosition": 131,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Groups.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "kBzySuopIjeB",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"kBzySuopIjeB"
-							],
-							"title": "Linux Package Manager",
-							"notePosition": 141,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Linux Package Manager.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "50Ch5b6k7SU4",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"50Ch5b6k7SU4"
-							],
-							"title": "Linux Repository",
-							"notePosition": 151,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Linux Repository.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "AJakCppVOsRT",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"AJakCppVOsRT"
-							],
-							"title": "Linux useful files",
-							"notePosition": 161,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Linux useful files.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "yel5j3xinaWt",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"yel5j3xinaWt"
-							],
-							"title": "Networking",
-							"notePosition": 171,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Networking.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "29FCD8QsOa7c",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"29FCD8QsOa7c"
-							],
-							"title": "Kikthemout Eth0 - github",
-							"notePosition": 181,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Kikthemout Eth0 - github.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "tL8k3Akt8ZPc",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"tL8k3Akt8ZPc"
-							],
-							"title": "Port forwarding without router",
-							"notePosition": 191,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Port forwarding without router.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "1ibFtlIfiX4M",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"1ibFtlIfiX4M"
-							],
-							"title": "Basic Useful Command  ",
-							"notePosition": 201,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Basic Useful Command.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "kPQAofBwb4eE",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"kPQAofBwb4eE"
-							],
-							"title": "Software add",
-							"notePosition": 211,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Software add.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "WDEEPeHC8iPq",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"WDEEPeHC8iPq"
-							],
-							"title": "Installing",
-							"notePosition": 221,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Installing.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "dffLTvE0Mvnc",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"dffLTvE0Mvnc"
-							],
-							"title": "Linux Install & Changes",
-							"notePosition": 231,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Linux Install & Changes.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "xBJJNtrQAzg2",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"xBJJNtrQAzg2"
-							],
-							"title": "To Do List",
-							"notePosition": 241,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "To Do List.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "iGzjJ2UBnUxG",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"iGzjJ2UBnUxG"
-							],
-							"title": "All Command",
-							"notePosition": 251,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "All Command.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "deRGqvRoRrT7",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"deRGqvRoRrT7"
-							],
-							"title": "Virtual Private Server",
-							"notePosition": 261,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Virtual Private Server.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "7xKsxwCOI6hs",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"aM6ViBmjgypJ",
-								"7xKsxwCOI6hs"
-							],
-							"title": "Server configuration",
-							"notePosition": 271,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Server configuration.html"
 						}
 					]
 				},
 				{
 					"isClone": false,
-					"noteId": "Adx2oIAXGR3w",
+					"noteId": "GxtDDEHWBFo8",
 					"notePath": [
-						"9k2JB3kU5UUU",
-						"Adx2oIAXGR3w"
+						"root",
+						"GxtDDEHWBFo8"
 					],
-					"title": "Bash Scripting",
-					"notePosition": 30,
+					"title": "Python Programming",
+					"notePosition": 100,
 					"prefix": null,
 					"isExpanded": false,
 					"type": "text",
 					"mime": "text/html",
 					"attributes": [],
 					"format": "html",
-					"dataFileName": "Bash Scripting.html",
-					"dirFileName": "Bash Scripting",
-					"children": [
-						{
-							"isClone": false,
-							"noteId": "LXSGrCZMepBk",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"Adx2oIAXGR3w",
-								"LXSGrCZMepBk"
-							],
-							"title": "Introduction",
-							"notePosition": 10,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "Introduction.html"
-						},
-						{
-							"isClone": false,
-							"noteId": "nXeXXXXRdZPu",
-							"notePath": [
-								"9k2JB3kU5UUU",
-								"Adx2oIAXGR3w",
-								"nXeXXXXRdZPu"
-							],
-							"title": "new note",
-							"notePosition": 20,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "text",
-							"mime": "text/html",
-							"attributes": [],
-							"format": "html",
-							"dataFileName": "new note.html"
-						}
-					]
-				},
-				{
-					"isClone": false,
-					"noteId": "Uk6aTe7Gc74F",
-					"notePath": [
-						"9k2JB3kU5UUU",
-						"Uk6aTe7Gc74F"
-					],
-					"title": "Unix v/s Linux",
-					"notePosition": 40,
-					"prefix": null,
-					"isExpanded": false,
-					"type": "text",
-					"mime": "text/html",
-					"attributes": [
-						{
-							"type": "relation",
-							"name": "imageLink",
-							"value": "6Xyb6gjne0Ay",
-							"isInheritable": false,
-							"position": 1
-						}
-					],
-					"format": "html",
-					"dataFileName": "Unix vs Linux.html"
+					"dataFileName": "Python Programming.html"
 				}
 			]
 		},

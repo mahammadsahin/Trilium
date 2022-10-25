@@ -1,0 +1,193 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>User Administration &amp; User Types</h1>
+
+    
+<h2><span class="text-big"><strong><u>Linux User Administration</u></strong></span></h2>
+    <ol>
+      <li><strong><u>User</u></strong>
+        <ul>
+          <li><strong>Owner/Creator</strong>
+          </li>
+        </ul>
+      </li>
+      <li><strong><u>Group</u></strong>
+        <ul>
+          <li><strong>Multiple users</strong>
+          </li>
+        </ul>
+      </li>
+      <li><strong><u>Other</u></strong>
+        <ul>
+          <li><strong>Everybody else</strong>
+          </li>
+          <li><strong>Not user &amp; not group</strong>
+          </li>
+        </ul>
+      </li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>[*] when create a user that was multiple id - (i) parmanent id (uid) (ii)
+      parmanent group id (gid) (iii) groups</p>
+    <p>&nbsp;</p>
+    <h3 style="margin-left:40px;"><strong><u>User Types</u></strong></h3>
+    <ol>
+      <li><strong>Administrator</strong> - Root (<strong>User Id=0</strong>)</li>
+      <li><strong>General User</strong> - Made with useradd commands (<strong>User Id=500-60000</strong>)</li>
+      <li><strong>System User</strong> - Made Internally (<strong>User Id=1-1499 &amp; 60001-65535</strong>)</li>
+    </ol>
+    <p style="margin-left:1.91cm;">[*] Any user who will be given <strong>User id as 0</strong> will become <strong>root or administrator</strong> and
+      get full access or <strong>rwx</strong>
+    </p>
+    <p>&nbsp;</p>
+    <h3><strong><u>Command</u></strong></h3>
+    <figure class="table">
+      <table>
+        <tbody>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Adduser name&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Add user</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Useradd -m name [-m - to create /home/user_name]</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Add user then add password using passwd user command</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Userdel user2</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">User delete from system</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Userdel --force user2</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">User force remove</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Passwd user[optional]</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Password change</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Passwd -d user</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Remove password from user</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Adduser user2 -u 1500</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">User id give 1500</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Su user1 [su-super user]</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Switch user&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Pkill 5395(process id)</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Process kill</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <p>&nbsp;</p>
+    <figure class="table">
+      <table>
+        <tbody>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Hostname</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">what is pc name in a network</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Uname</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">System karnal</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Uname -a [all] -r [version]</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">who</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">System all user</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">whoami</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Who am I (permission)</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Id</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">User id details</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <p style="margin-left:0.95cm;">&nbsp;</p>
+    <h3 style="margin-left:40px;"><strong><u>Permission change</u></strong></h3>
+    <ul>
+      <li>How to add user to run <strong>sudo </strong>command&nbsp;</li>
+    </ul>
+    <figure class="table">
+      <table>
+        <tbody>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Adduser user1 sudo [super user do]</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Now sudo command run user1</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <ul>
+      <li>When show - <strong>USER IS NOT IN THE SUDOERS FILE. THIS INCIDENT WILL BE REPORTED</strong>
+      </li>
+    </ul>
+    <ol style="list-style-type:decimal;">
+      <li>Then - nano /etc/sudoers</li>
+      <li>Go to <strong>#user privilege specification</strong>
+        <ol>
+          <li>User1 ALL=(ALL:ALL) ALL</li>
+        </ol>
+      </li>
+    </ol>
+    <p>&nbsp;</p>
+    <h3 style="margin-left:40px;"><strong>[*] Directory permission</strong></h3>
+    <figure class="table">
+      <table>
+        <tbody>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Chmod -R u+x directory_name</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Directory permission change</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <p>&nbsp;</p>
+    <h3 style="margin-left:40px;"><strong><u>File owner change</u></strong></h3>
+    <figure class="table">
+      <table>
+        <tbody>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Chown</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Change owner</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Chmod user1 file.txt</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">User1 in owner</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Chgrp</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Change group</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Chgrp user1 file.txt</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <p style="margin-left:40px;">chmod -R[recersive] 764 directory //directory under all files &amp; folders
+      permission change in one command</p>
+    <p style="margin-left:40px;">&nbsp;</p>
+  </body>
+
+</html>

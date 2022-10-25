@@ -1,0 +1,142 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>File Permission</h1>
+
+    
+<h2><strong><u>File Permissions</u></strong></h2>
+    <ul>
+      <li><strong><u>Read</u></strong> - r
+        <ul>
+          <li>Open and read</li>
+        </ul>
+      </li>
+      <li><strong><u>Write</u></strong> - w
+        <ul>
+          <li>Modify the contents</li>
+          <li>Add, remove, &amp; remane</li>
+        </ul>
+      </li>
+      <li><strong><u>Execute</u></strong> - x
+        <ul>
+          <li>run</li>
+        </ul>
+      </li>
+    </ul>
+    <figure class="table">
+      <table>
+        <tbody>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>-rw-</strong>
+            </td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>rw-</strong>
+            </td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>r--</strong>
+            </td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>User</strong>
+            </td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>Group</strong>
+            </td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>Other</strong>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <ul>
+      <li>First - is used for file - -rwxrw-r--</li>
+      <li><strong><u>Absolute (Numeric) Mode</u></strong>
+        <ul>
+          <li>0 for no permission</li>
+          <li>1 for execute</li>
+          <li>2 for write</li>
+          <li>4 for read</li>
+        </ul>
+      </li>
+    </ul>
+    <figure class="table">
+      <table>
+        <tbody>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>7</strong>
+            </td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>6</strong>
+            </td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>4</strong>
+            </td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>rwx</strong>
+            </td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>rw-</strong>
+            </td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;"><strong>r--</strong>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <p>&nbsp;</p>
+    <ul>
+      <li><strong><u>Symbolic Mode</u></strong> (for all 3 user types)
+        <ul>
+          <li>Relative&nbsp;
+            <ul>
+              <li>+ for <strong>adding </strong>permission</li>
+              <li>- for <strong>removing </strong>permission</li>
+              <li>= <strong>sets</strong> &amp; <strong>overrides </strong>permission</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p>&nbsp;</p>
+    <ul>
+      <li>U - User/owner</li>
+      <li>G - group</li>
+      <li>O - other</li>
+      <li>A - all</li>
+    </ul>
+    <p>&nbsp;</p>
+    <h3 style="margin-left:40px;"><strong>[*] File permission</strong></h3>
+    <figure class="table">
+      <table>
+        <tbody>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Chmod</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Change mode</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Chmod 760/777 file.txt (sudo)[7-user, 6-group, 0-other]</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Absolute mode</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Chmod u+r file.txt (sudo) [u-user, <strong>+</strong>-relative, r-read]</td>
+            <td
+            style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Symbolic mode</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Chmod u=rwx file.txt [user, read, write, execute]</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">
+              <br>&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </body>
+
+</html>

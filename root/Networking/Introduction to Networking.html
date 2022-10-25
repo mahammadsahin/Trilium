@@ -1,0 +1,245 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+  </head>
+  
+  <body class="ck-content">
+     <h1>Introduction to Networking</h1>
+
+    <p><strong><u>Networking</u></strong>
+    </p>
+    <ul>
+      <li><strong><u>Computer network</u></strong>
+        <ul>
+          <li>A Collection of computing devices that are connected in various ways in
+            order to communicate &amp; share resources.</li>
+          <li>Usually, the connections between computers in a network are made using
+            physical wires or cables.
+            <ul>
+              <li>However, some connections are <strong>wireless, </strong>using radio waves
+                or infrared signals.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <p style="margin-left:2.86cm;">&nbsp;</p>
+    <ul>
+      <li><strong><u>Generic term</u></strong>
+        <ol>
+          <li><strong><u>Node or host </u></strong>means any device on a network.</li>
+        </ol>
+      </li>
+    </ul>
+    <figure class="image">
+      <img src="Introduction%20to%20Networking/image.png">
+    </figure>
+    <p>&nbsp;</p>
+    <p style="margin-left:40px;"><strong><u>Data transfer rate:</u></strong>
+    </p>
+    <p>The speed with which data is moved from one place on a network to another.</p>
+    <p>Data transfer rate is a <strong>key issue</strong> in computer networks.</p>
+    <p>Data storage capacity units of measurement</p>
+    <figure class="table">
+      <table>
+        <tbody>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Name</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Equal to</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Size (in bytes)</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Bit (bit)</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1 bit</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1/8</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Nibble (n)</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">4 bits</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1/2 (rare)</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Byte (b)</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">2 nibble / 8 bits</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Kilobyte (kb)</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1,024 bytes</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">2^10=1,024</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Megabyte (mb)</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1,024 kilobyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">2^20=10,48,576&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Gigabyte (gb)</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1,024 megabyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">2^30=1,07,37,41,824&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Terabyte (tb)</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1,024 gigabyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">2^40=1E12 (1,099,511,627,776)</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Petabyte (pb)</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1,024 terabyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">2^50=1E15 (1,125,899,906,842,624)</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Exabyte (eb)</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1,024 petabyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">2^60=1E18 (1,152,921,504,606,846,976)</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Zettabyte (zb)</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1,024 exabyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">2^70=1E21 (1,180,591,620,717,411,303,424)</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Yottabyte (yb)</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1,024 zettabyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">2^80=1E24 (1,208,925,819,614,629,174,706,176)</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Brontobytes</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1,024 yottabyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">2^90=1E27&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Geopbyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">1,024 brontobytes</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">2^100=1E30&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Saganbyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">-</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Pijabyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">-</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Alphabyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">-</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Kryatbyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Amosbyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Pectrolbyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">-</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Bolgerbyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Sambobyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Quesabyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Kinsabyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Rutherbyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Dubnibyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Seaborgbyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Bohrbyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Hassiubyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Meitnerbyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Darmstadbyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Roentbyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Coperbyte</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">-</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <p>&nbsp;</p>
+    <figure class="table">
+      <table>
+        <tbody>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Bit&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">Byte&nbsp;</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">10 Mbps</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">10/8=1.25 MB/s</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">56 Gbit</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">56/8=7 GB</td>
+          </tr>
+          <tr>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+            <td style="border:1.00pt solid #a3a3a3;padding:0.14cm;">&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </body>
+
+</html>
